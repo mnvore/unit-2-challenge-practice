@@ -1,0 +1,19 @@
+/* Complete the challenge by writing CSS below */
+
+//Create an attribute selector that targets an img element with a title attribute value of "avatar". Give the element a border radius of 50%.
+
+img[title="avatar"] {
+  border-radius: 50%;
+}
+input[type="password"] {
+  color: #ccc;
+}
+//Write a new attribute selector that targets input elements with a type attribute value of submit. Then, set a background color of #52bab3.
+input[type="submit"] {
+  background-color: #52bab3;
+}
+//Finally, select an input element with a type attribute value of reset. Set its background color to tomato.
+
+input[type="reset"] {
+  background-color: tomato;
+}
