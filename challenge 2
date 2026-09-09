@@ -1,0 +1,12 @@
+//Select all unvisited links and set their text color to darkorange.
+a:link {
+  color: darkorange;
+}
+//Next, select all visited links and set their text color to firebrick.
+a:visited {
+  color: firebrick;
+}
+//
+a:hover {
+  color: maroon;
+}
