@@ -1,0 +1,14 @@
+//In this challenge, you're going to select various elements from index.html. First, select all <a> elements inside the <nav> element and assign them to the variable navigationLinks. (HINT: Use a descendant selector to match elements that are descendants of an element.)
+let navigationLinks;
+let galleryLinks;
+let footerImages;
+
+navigationLinks = document.querySelectorAll('nav a');
+
+//Challenge Task 2 of 3 Next, select all <a> elements inside the unordered list with the ID gallery and assign them to the variable galleryLinks.
+//syntax notes: document means we look at the webpage, the queryselectorall means we want to find all the matching elements and the # fgallery is the id and the a means the <a> link elements... so basically if you see '#gallery a' ID gallery -> find rhe links inside it
+galleryLinks = document.querySelectorAll('#gallery a');
+
+//Challenge Task 3 of 3 Finally, select all images inside the footer element and assign them to the variable footerImages.
+
+footerImages = document.querySelectorAll('footer img');
