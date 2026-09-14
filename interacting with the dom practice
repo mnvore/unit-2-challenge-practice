@@ -1,0 +1,37 @@
+// CHANGE TEXT
+element.textContent = "Hello";
+
+// CHANGE HTML
+element.innerHTML = "<p>Hello</p>";
+
+// INPUT VALUE
+input.value;
+
+// CHANGE ATTRIBUTE
+element.className = "intro";
+element.setAttribute("href", "new-url");
+
+// STYLE
+element.style.display = "none";
+element.style.backgroundColor = "red";
+
+// CREATE
+const item = document.createElement("li");
+
+// FILL CREATED ELEMENT
+item.textContent = "Task";
+
+// ADD TO END
+parent.append(item);
+
+// ADD TO BEGINNING
+parent.prepend(item);
+
+// INSERT HTML AT POSITION
+element.insertAdjacentHTML("beforeend", "<li>Task</li>");
+
+// REMOVE ELEMENT
+element.remove();
+
+// REMOVE ATTRIBUTE
+element.removeAttribute("style");
