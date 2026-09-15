@@ -1,0 +1,25 @@
+// Challenge 1:
+// Select the button with the ID "makeItRed" and assign it to the button variable
+button = document.getElementById("makeItRed");
+// Challenge 2:
+// Add a "click" event listener to button
+// Pass an empty function as the second argument
+button.addEventListener("click", function () {
+});
+// Challenge 3:
+// Inside the button click handler, change the warning div's background color to red
+button.addEventListener("click", function () {
+  warning.style.backgroundColor = "red";
+});
+
+And the pattern tying all three together is:
+
+// 1. Select the element
+button = document.getElementById("makeItRed");
+
+// 2. Listen for the event
+button.addEventListener("click", function () {
+
+  // 3. Put the response inside the handler
+  warning.style.backgroundColor = "red";
+});
