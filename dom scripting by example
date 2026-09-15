@@ -1,0 +1,19 @@
+// EDITING STATE
+// text → input
+// Edit button → Save button
+
+const span = li.firstElementChild;
+
+const input = document.createElement('input');
+input.type = 'text';
+input.value = span.textContent;
+
+button.textContent = 'save';
+
+// 1. Checkbox changed
+filterCheckbox.addEventListener('change', (e) => {
+});
+// 2. Is it checked?
+e.target.checked
+  // 2. Is it checked?
+e.target.checked
