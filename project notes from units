@@ -1,0 +1,107 @@
+// PROJECT 2: loop through the student list
+for (let i = 0; i < list.length; i++) {
+
+  // PROJECT 2: use the current index i to check
+  // if this student belongs on the current page
+  if (i >= startIndex && i < endIndex) {
+
+    // PROJECT 2: list[i] is the current student
+    const student = list[i];
+
+    // if the condition is true,
+    // this is where the student's HTML will be created/displayed
+  }
+}
+
+// MAIN IDEA 1:
+// Refactoring means cleaning up code
+// without changing what the app does.
+
+// MAIN IDEA 2:
+// If you see the same kind of code repeated,
+// make a function to do that repeated job.
+
+// MAIN IDEA 3:
+// Parameters let one function handle different values.
+
+function createElement(elementName, property, value) {
+  // use the values passed in
+}
+
+// MAIN IDEA 4:
+// return sends the finished result back
+// so the rest of the code can use it.
+
+return element;
+
+// MAIN IDEA 5:
+// A helper function is just a small function
+// that does one specific job for another part of your program.
+
+// PROJECT 2:
+// You do NOT need to memorize createElement()
+// or appendToLI() for your required project.
+// Just understand:
+// repeated code can be moved into a reusable function.
+
+// MAIN IDEA:
+// If one if/else block is doing several different jobs,
+// move each job into its own function.
+
+// Instead of a big messy block:
+if (button.textContent === 'remove') {
+  // lots of remove code
+} else if (button.textContent === 'edit') {
+  // lots of edit code
+} else if (button.textContent === 'save') {
+  // lots of save code
+}
+
+// Make each job its own function:
+function removeName() {
+  // remove code
+}
+
+function editName() {
+  // edit code
+}
+
+function saveName() {
+  // save code
+}
+
+// Then the branching code becomes easier to read:
+if (button.textContent === 'remove') {
+  removeName();
+} else if (button.textContent === 'edit') {
+  editName();
+} else if (button.textContent === 'save') {
+  saveName();
+}
+
+// PROJECT 2:
+// You do not need this exact pattern.
+// Just understand that functions can make big chunks
+// of code easier to organize and read.
+
+// LINE BREAKPOINT
+// = pause when JavaScript reaches a specific line
+
+// CONDITIONAL BREAKPOINT
+// = pause on that line only if a condition is true
+
+// Example:
+li.className !== 'responded'
+
+// = means assign / change a value
+li.className = 'responded'
+
+// === means compare / check whether values match
+li.className === 'responded'
+
+// PROJECT 2:
+// useful when a loop runs many times
+// and you only want to inspect one specific case
+
+// Example:
+i === 5
